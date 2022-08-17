@@ -12,7 +12,7 @@ class Main extends Component {
             <div className="content">
               <p>&nbsp;</p>
               <div className="card mb-3 mx-auto bg-dark" style={{ maxWidth: '512px' }}>
-                <h2 className="text-white text-monospace bg-dark"><b><ins>Share File</ins></b></h2>
+                <h2 className="text-white text-monospace bg-dark"><b><ins>Open for all Drops</ins></b></h2>
                   <form onSubmit={(event) => {
                     event.preventDefault()
                     const description = this.fileDescription.value
